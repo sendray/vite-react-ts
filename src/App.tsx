@@ -1,19 +1,27 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+// import reactLogo from "./assets/react.svg";
+// import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="bg-white dark:bg-gray-800 rounded-lg px-6 py-8 ring shadow-xl ring-gray-900/5">
+        <div className="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4">
+          {/* <img
+            className="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0"
+            src={viteLogo}
+            alt=""
+          /> */}
+          <div className="space-y-2 text-center sm:text-left">
+            <div className="space-y-0.5">
+              <p className="text-lg font-semibold text-black">
+                Vite + React + Tailwind
+              </p>
+              <p className="font-medium text-gray-500">Updates on the way!</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
     </>
   );
 }
