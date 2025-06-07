@@ -7,5 +7,5 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  base: "/learning/vite-react-ts/",
+  base: "/vite-react-ts/",
 });
